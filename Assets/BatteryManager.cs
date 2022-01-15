@@ -17,7 +17,7 @@ public class BatteryManager : MonoBehaviour
         {
             yield return new WaitForSecondsRealtime(5);
             UpdateBattery();
-            if (currentValue < 25.0f)
+            if (currentValue < 95.0f)
             {
                 alertUI.gameObject.SetActive(true);
             }
