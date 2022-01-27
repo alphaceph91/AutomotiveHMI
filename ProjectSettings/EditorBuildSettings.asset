@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 6223a50f583363a45b3cc4f0bef6fb70
   - enabled: 1
-    path: Assets/Scenes/LeapMotionTest.unity
+    path: Assets/Scenes/AutomotiveHMI.unity
     guid: 6a9fa455fad9267498c3393904c09d03
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3d700e409d1afd14c9bd7c093b9ec9b5, type: 2}
