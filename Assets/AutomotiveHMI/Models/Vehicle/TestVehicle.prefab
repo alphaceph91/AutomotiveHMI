@@ -7631,6 +7631,7 @@ MonoBehaviour:
   m_Target: {fileID: 3980127103050047782}
   m_StopWhenTargetReached: 0
   m_ReachTargetThreshold: 2
+  displayText: {fileID: 2636502257063364049}
 --- !u!114 &7625218284965786783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14011,7 +14012,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4694824355242475101
 Transform:
   m_ObjectHideFlags: 0

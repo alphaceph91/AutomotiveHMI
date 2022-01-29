@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using TMPro;
 
 #pragma warning disable 649
 namespace UnityStandardAssets.Vehicles.Car
@@ -38,6 +39,7 @@ namespace UnityStandardAssets.Vehicles.Car
         [SerializeField] private Transform m_Target;                                              // 'target' the target object to aim for.
         [SerializeField] private bool m_StopWhenTargetReached;                                    // should we stop driving when we reach the target?
         [SerializeField] private float m_ReachTargetThreshold = 2;                                // proximity to target to consider we 'reached' it, and stop driving.
+        [SerializeField] private TMP_Text displayText;                                            // Battery value to stop the car
 
         private float m_RandomPerlin;             // A random value for the car to base its wander on (so that AI cars don't all wander in the same pattern)
         private CarController m_CarController;    // Reference to actual car controller we are controlling
@@ -61,7 +63,7 @@ namespace UnityStandardAssets.Vehicles.Car
 
         private void FixedUpdate()
         {
-            if (m_Target == null || !m_Driving)
+            if (displayText.text == "0%" || m_Target == null || !m_Driving)
             {
                 // Car should not be moving,
                 // use handbrake to stop
