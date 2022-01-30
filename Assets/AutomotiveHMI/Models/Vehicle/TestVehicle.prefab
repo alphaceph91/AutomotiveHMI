@@ -12788,7 +12788,7 @@ GameObject:
   - component: {fileID: 6985175935645850311}
   - component: {fileID: 7170775603718161184}
   m_Layer: 0
-  m_Name: PinchGesture
+  m_Name: ThumbGesture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12901,7 +12901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50b5cd79ad129414598f141848653a34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Debug: 0
+  m_Debug: 1
   m_Hand: 0
 --- !u!1 &7293023748016795808
 GameObject:
