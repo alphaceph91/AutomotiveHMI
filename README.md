@@ -5,6 +5,8 @@
 
 AutomotiveHMI is virtual reality driving simulator to investigate information and entertainment visualization on in-vehicle display. This project focuses on using windshield display (WSD) and head-down display (HDD) for content visualization by creating a view management system. Contents available to the drivers are distributed among the WSD and HDD. Interaction with the view management is possible using gestures. The following gestures can be used to interact with the displays:
 
+![AutomotiveHMI2](https://user-images.githubusercontent.com/56506266/151705852-5f121738-55aa-4bed-8e2a-38589a62d432.jpg)
+
 Left Hand Gestures: 
 -	Number 1: Battery status
 -	Number 2: Navigation
@@ -14,7 +16,7 @@ Left Hand Gestures:
 Right Hand Gestures:
 -	Swipe Left: Entertainment (video player)
 -	Swipe Right: Information (battery meter, date & time)
--	Pinch: Minimap on WSD
+-	Thumb: Minimap on WSD
 -	Peace: Empty WSD
 
 ### Project Requirements
