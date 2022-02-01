@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AutomotiveHMI.unity
     guid: 6a9fa455fad9267498c3393904c09d03
+  - enabled: 1
+    path: Assets/Scenes/TestScene.unity
+    guid: 2825794252825234dbca1b9a77756074
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3d700e409d1afd14c9bd7c093b9ec9b5, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: d6954720924e9a941853c4a255b3f678, type: 2}
