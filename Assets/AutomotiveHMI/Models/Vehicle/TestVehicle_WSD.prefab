@@ -3720,6 +3720,7 @@ GameObject:
   - component: {fileID: 7559425340991238256}
   - component: {fileID: 8819109087795580108}
   - component: {fileID: 686542181126502847}
+  - component: {fileID: 2319932837425519398}
   m_Layer: 5
   m_Name: SpeedLabel
   m_TagString: Untagged
@@ -3845,6 +3846,24 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &2319932837425519398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2602327683795571281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c7d046d7bd4f147984da648a6f750f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 8491065549075881195}
+  maxSpeed: 210
+  minSpeedNeedleAngle: 0
+  maxSpeedNeedleAngle: -240
+  speedLabel: {fileID: 686542181126502847}
+  needle: {fileID: 3511858548436673188}
 --- !u!1 &2602519468080349363
 GameObject:
   m_ObjectHideFlags: 0
@@ -16460,7 +16479,7 @@ GameObject:
   - component: {fileID: 8431158867668302369}
   - component: {fileID: 8431158867668302370}
   m_Layer: 5
-  m_Name: Date
+  m_Name: Weather
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17244,7 +17263,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8541673409149120562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4621085486426909807}
@@ -17253,7 +17272,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.304}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8235480545827031745
