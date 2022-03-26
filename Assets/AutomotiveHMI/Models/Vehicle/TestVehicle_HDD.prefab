@@ -3635,7 +3635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aff6aee5d8b3bea4394101a73a7be731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Debug: 1
+  m_Debug: 0
   m_Hand: 0
   m_Direction: 3
   m_VelocityThreshold: 1
@@ -6509,7 +6509,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 8400000, guid: b8b58bff205e4f94282d5ef79253af49, type: 2}
+  m_Texture: {fileID: 8400000, guid: 6a35c9e1abe8e5b44abac7334bce3f9e, type: 2}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -13520,7 +13520,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: b8b58bff205e4f94282d5ef79253af49, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 6a35c9e1abe8e5b44abac7334bce3f9e, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0

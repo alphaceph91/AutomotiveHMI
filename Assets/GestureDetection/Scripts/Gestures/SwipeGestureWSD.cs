@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SwipeGesture : GestureBase
+public class SwipeGestureWSD : GestureBase
 {
 
     public EHand m_Hand;
@@ -14,8 +14,6 @@ public class SwipeGesture : GestureBase
     public GameObject Screen2;
     public GameObject Screen3;
     public GameObject Screen4;
-    public GameObject Screen5;
-    public GameObject Screen6;
 
     float m_CoolDownLeft = 0.0f;
 
@@ -112,25 +110,6 @@ public class SwipeGesture : GestureBase
                     m_CoolDownLeft = m_CooldownTime;
                     Screen3.SetActive(false);
                     Screen4.SetActive(true);
-                    return true;
-                }
-
-
-                if (Screen4.activeSelf && swipeDir == m_Direction)
-                {
-                    Debug.Log("4");
-                    m_CoolDownLeft = m_CooldownTime;
-                    Screen4.SetActive(false);
-                    Screen5.SetActive(true);
-                    return true;
-                }
-
-                if (Screen5.activeSelf && swipeDir == m_Direction)
-                {
-                    Debug.Log("5");
-                    m_CoolDownLeft = m_CooldownTime;
-                    Screen5.SetActive(false);
-                    Screen6.SetActive(true);
                     return true;
                 }
             }
