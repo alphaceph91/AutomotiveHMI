@@ -1,7 +1,7 @@
 # AutomotiveHMI
 ### Title: Investigating information and entertainment visualization on in-vehicle display
 
-![AutomotiveHMI](![1](https://user-images.githubusercontent.com/56506266/160260202-108ffad1-1fb8-49ef-98e7-6625970489d9.jpg)
+![AutomotiveHMI1](https://user-images.githubusercontent.com/56506266/160260202-108ffad1-1fb8-49ef-98e7-6625970489d9.jpg)
 
 AutomotiveHMI is virtual reality driving simulator to investigate information and entertainment visualization on in-vehicle display. This project focuses on using windshield display (WSD) and head-down display (HDD) for content visualization by creating a view management system. Contents available to the drivers are distributed among the WSD and HDD. Interaction with the view management is possible using gestures. The following gestures can be used to interact with the displays:
 
