@@ -1194,14 +1194,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Swipe Left: Entertainment
+  m_text: 'Right hand Gestures: Works for WSD
 
-    Swipe Right: Information
+    
 
-    Thumb: Minimap
-    on WSD
+    Swipe left to go to the
+    next screen.
 
-    Peace: Empty WSD
+    Swipe right to go to the previous screen.
 
 '
   m_isRightToLeft: 0
@@ -1414,14 +1414,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Number 1: Battery
+  m_text: 'Left hand Gestures: Works for HDD
 
-    Number 2: Minimap/Nav
+    
 
-    Number 3: Music
+    Swipe left to go to the
+    next screen.
 
-    Number
-    4: Contact
+    Swipe right to go to the previous screen.
 
 '
   m_isRightToLeft: 0
