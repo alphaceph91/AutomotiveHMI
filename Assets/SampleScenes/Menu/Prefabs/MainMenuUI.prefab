@@ -1194,12 +1194,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Right hand Gestures: Works for WSD
+  m_text: 'Right hand Gestures: Works for HDD
 
-    
 
-    Swipe left to go to the
-    next screen.
+
+    Swipe left to go to the next
+    screen.
 
     Swipe right to go to the previous screen.
 
@@ -1414,12 +1414,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Left hand Gestures: Works for HDD
+  m_text: 'Left hand Gestures: Works for WSD
 
-    
 
-    Swipe left to go to the
-    next screen.
+
+    Swipe left to go to the next
+    screen.
 
     Swipe right to go to the previous screen.
 
