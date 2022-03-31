@@ -269,10 +269,10 @@ MonoBehaviour:
   m_Direction: 2
   m_VelocityThreshold: 1
   m_CooldownTime: 0.5
-  Screen1: {fileID: 2607140125057544337}
-  Screen2: {fileID: 7320316007624294283}
-  Screen3: {fileID: 8431158867145540065}
-  Screen4: {fileID: 8431158867229938451}
+  Screen1: {fileID: 7320316007624294283}
+  Screen2: {fileID: 2607140125057544337}
+  Screen3: {fileID: 8431158867229938451}
+  Screen4: {fileID: 8431158867145540065}
 --- !u!1 &729800391148196941
 GameObject:
   m_ObjectHideFlags: 0
@@ -499,10 +499,10 @@ MonoBehaviour:
   m_Direction: 3
   m_VelocityThreshold: 1
   m_CooldownTime: 0.5
-  Screen1: {fileID: 8431158867229938451}
-  Screen2: {fileID: 8431158867145540065}
-  Screen3: {fileID: 7320316007624294283}
-  Screen4: {fileID: 2607140125057544337}
+  Screen1: {fileID: 8431158867145540065}
+  Screen2: {fileID: 8431158867229938451}
+  Screen3: {fileID: 2607140125057544337}
+  Screen4: {fileID: 7320316007624294283}
 --- !u!1 &959076391553957980
 GameObject:
   m_ObjectHideFlags: 0
@@ -3569,12 +3569,12 @@ GameObject:
   m_Component:
   - component: {fileID: 3003791372502675213}
   m_Layer: 0
-  m_Name: WSD2_Entertainment
+  m_Name: WSD3_Entertainment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3003791372502675213
 Transform:
   m_ObjectHideFlags: 0
@@ -3588,7 +3588,7 @@ Transform:
   m_Children:
   - {fileID: 203060669038636677}
   m_Father: {fileID: 4147202625635867364}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2618236177333976774
 GameObject:
@@ -6060,10 +6060,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 976549936779127584}
-  - {fileID: 3003791372502675213}
   - {fileID: 2189025001339479144}
-  - {fileID: 8431158867145540064}
+  - {fileID: 3003791372502675213}
   - {fileID: 8431158867229938450}
+  - {fileID: 8431158867145540064}
   - {fileID: 4046156206192353276}
   - {fileID: 6703020495731262123}
   - {fileID: 7304953184917354593}
@@ -11178,12 +11178,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2189025001339479144}
   m_Layer: 0
-  m_Name: WSD3_Navigation
+  m_Name: WSD2_Navigation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2189025001339479144
 Transform:
   m_ObjectHideFlags: 0
@@ -11197,7 +11197,7 @@ Transform:
   m_Children:
   - {fileID: 4155738625952169164}
   m_Father: {fileID: 4147202625635867364}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7344738332401829224
 GameObject:
@@ -14593,7 +14593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8431158867145540064}
   m_Layer: 0
-  m_Name: WSD4_TextInfo
+  m_Name: WSD5_TextInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14612,7 +14612,7 @@ Transform:
   m_Children:
   - {fileID: 8431158866287737732}
   m_Father: {fileID: 4147202625635867364}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8431158867175664356
 GameObject:
@@ -14699,7 +14699,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8431158867229938450}
   m_Layer: 0
-  m_Name: WSD5_Contacts
+  m_Name: WSD4_Contacts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14718,7 +14718,7 @@ Transform:
   m_Children:
   - {fileID: 8431158866630573929}
   m_Father: {fileID: 4147202625635867364}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8431158867351052891
 GameObject:
