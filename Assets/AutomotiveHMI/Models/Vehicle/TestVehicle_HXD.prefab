@@ -2836,7 +2836,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &268124716120221190
 Transform:
   m_ObjectHideFlags: 0
@@ -5666,7 +5666,7 @@ MonoBehaviour:
   m_MaxHandbrakeTorque: 100000000
   m_Downforce: 100
   m_SpeedType: 1
-  m_Topspeed: 100
+  m_Topspeed: 200
   m_RevRangeBoundary: 1
   m_SlipLimit: 0.4
   m_BrakeTorque: 20000
@@ -12292,7 +12292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3866055720533856437
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12738,13 +12738,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3866055720746479958}
+  - component: {fileID: 6901382319612453662}
   m_Layer: 0
   m_Name: CollisionAlert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3866055720746479958
 Transform:
   m_ObjectHideFlags: 0
@@ -12760,6 +12761,20 @@ Transform:
   m_Father: {fileID: 3866055719512369141}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
+--- !u!114 &6901382319612453662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3866055720746479957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01e2b3c14058e74f80509acb6a21d61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alert: {fileID: 3866055720779902724}
+  time: 30
 --- !u!1 &3866055720779902724
 GameObject:
   m_ObjectHideFlags: 0
@@ -12778,7 +12793,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3866055720779902725
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14031,6 +14046,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3866055721317190937}
+  - component: {fileID: 2664818053307385365}
   m_Layer: 0
   m_Name: BrakeAlert
   m_TagString: Untagged
@@ -14053,6 +14069,20 @@ Transform:
   m_Father: {fileID: 3866055719512369141}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 15, y: 0, z: 0}
+--- !u!114 &2664818053307385365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3866055721317190936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01e2b3c14058e74f80509acb6a21d61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alert: {fileID: 3866055720533856436}
+  time: 10
 --- !u!1 &3874335899414048718
 GameObject:
   m_ObjectHideFlags: 0

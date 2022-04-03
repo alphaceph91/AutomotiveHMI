@@ -9032,6 +9032,12 @@ MonoBehaviour:
   m_Direction: 2
   m_VelocityThreshold: 0.5
   m_CooldownTime: 0.3
+  Screen1: {fileID: 0}
+  Screen2: {fileID: 0}
+  Screen3: {fileID: 0}
+  Screen4: {fileID: 0}
+  Screen5: {fileID: 0}
+  Screen6: {fileID: 0}
 --- !u!1 &4993233727112880448
 GameObject:
   m_ObjectHideFlags: 0
@@ -13775,6 +13781,12 @@ MonoBehaviour:
   m_Direction: 3
   m_VelocityThreshold: 0.5
   m_CooldownTime: 0.3
+  Screen1: {fileID: 0}
+  Screen2: {fileID: 0}
+  Screen3: {fileID: 0}
+  Screen4: {fileID: 0}
+  Screen5: {fileID: 0}
+  Screen6: {fileID: 0}
 --- !u!1 &7809997882535149524
 GameObject:
   m_ObjectHideFlags: 0
