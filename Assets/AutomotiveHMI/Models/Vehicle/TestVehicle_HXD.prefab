@@ -5371,7 +5371,7 @@ MonoBehaviour:
   m_Target: {fileID: 2952097506162833}
   m_StopWhenTargetReached: 0
   m_ReachTargetThreshold: 2
-  displayText: {fileID: 3866055720791002427}
+  displayText: {fileID: 3866055719349387917}
 --- !u!114 &6837603090883112232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7819,7 +7819,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3283160741422683662
 Transform:
   m_ObjectHideFlags: 0
@@ -9645,7 +9645,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2120133944522316750
 Transform:
   m_ObjectHideFlags: 0
@@ -15750,7 +15750,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &541556089818109056
 Transform:
   m_ObjectHideFlags: 0
@@ -19041,7 +19041,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6457977203007166205
 Transform:
   m_ObjectHideFlags: 0
@@ -20913,7 +20913,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6969238681650093893
 Transform:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AutomotiveHMI.unity
     guid: 6a9fa455fad9267498c3393904c09d03
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestScene.unity
     guid: 2825794252825234dbca1b9a77756074
   m_configObjects:
