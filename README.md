@@ -29,7 +29,6 @@ Right Hand Gestures: Used for Head-down display (HDD)
 - OS: Windows 10
 -	[Unity 2020.3.25](https://unity3d.com/get-unity/download/archive)
 - [VIsual Studio 2019](https://visualstudio.microsoft.com/downloads/)
-- [Nvidia GeForce Experience](https://www.nvidia.com/en-us/geforce/geforce-experience/)
 - [Steam](https://store.steampowered.com/)
 - [UltraLeap Gemini for Windows](https://developer.leapmotion.com/tracking-software-download)
 
