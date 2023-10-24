@@ -29,7 +29,7 @@ Right Hand Gestures: Used for Head-down display (HDD)
 - OS: Windows 10
 -	[Unity 2020.3.25](https://unity3d.com/get-unity/download/archive)
 - [VIsual Studio 2019](https://visualstudio.microsoft.com/downloads/)
-- [SteamVR](https://store.steampowered.com/](https://store.steampowered.com/app/250820/SteamVR/ )
+- [SteamVR](https://store.steampowered.com/app/250820/SteamVR/)
 - [UltraLeap Gemini for Windows](https://developer.leapmotion.com/tracking-software-download)
 
 ### Unity tools and packages
